@@ -6,11 +6,11 @@ ul {
     background-color: #333;
 }
 
-  
+
 li {
     float: left;
 }
-  
+
 li a {
     display: block;
     color: white;
@@ -18,15 +18,26 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-  
+
 li a:hover:not(.active) {
     background-color: #111;
 }
-  
+
 .active {
     background-color: darkred;
 }
-  
+
 ul img {
     width: 150px;
+}
+
+li input {
+    width: calc(100% - 38px);
+    height: 42px;
+    border-radius: 21px;
+    padding-left: 30px;
+}
+input[type = 'text'] {font-size: 24px;}
+#searchbar {
+    width: calc(100% - 443px);
 }
