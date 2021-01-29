@@ -259,3 +259,16 @@ input[type = 'email'] {font-size: 15px;}
     border: 2px solid black;
     border-radius: 10px;
 }
+.galleryItems:hover {
+    box-shadow: 10px 10px 20px black;
+}
+@media screen and (max-width: 750px) {
+    #galleryContainer {
+        margin: 0px 50px 30px;
+    }
+}
+@media screen and (max-width: 650px) {
+    #galleryContainer {
+        margin: 0px 0px 30px;
+    }
+}
