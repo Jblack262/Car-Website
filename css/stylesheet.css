@@ -285,7 +285,7 @@ input[type = 'email'] {font-size: 15px;}
 /* Account page */
 #accountContainer {
     visibility: hidden;
-    position: absolute;
+    position: fixed;
     background-color: white;
     border: 3px solid black;
     color: black;
