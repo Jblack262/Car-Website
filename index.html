@@ -9,14 +9,14 @@
 </head>
 <body>
     <ul>
-        <li><a href="index.html" style="padding: 0px"><img src="images/logo-noBackground.png" alt="Model Cars"></a></li>
+        <li><a href="index.html" style="padding: 0px 0px 5px"><img src="images/logo-noBackground.png" alt="Model Cars"></a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a onclick="storePage()" style="cursor: pointer;">Store</a></li>
 
         <li id="searchbar"><input type="text" placeholder="Search..."></li>
 
         <li><a href="#cart">Cart</a></li>
-        <li><a href="#account" style="background-color: darkred;">Account</a></li>
+        <li><a href="account.html" style="background-color: darkred;">Account</a></li>
     </ul>
 
     <img src="images/racecar.png" id="racecar">
@@ -25,15 +25,15 @@
         <p id="item1" style="margin: 50px 150px; color: black;">
             Here you will find top brands like Revell, AMT, MPC, Tamiya and more! With thousands of model kits to choose from you're bound to find just what you are looking for, and with great prices why would you shop anywhere else?
         </p>
-            <img id="item2" class="items squareImgs" src="images/civic.jpg" alt="Honda Civic Car">
-            <img id="item3" class="items squareImgs" src="images/roadster.jpg" alt="Honda Civic Car">
-            <img id="item4" class="items squareImgs" src="images/lambo.jpg" alt="Honda Civic Car">
-            <img id="item5" class="items squareImgs" src="images/mustang.jpg" alt="Honda Civic Car">
+            <a href="civic.html"><img id="item2" class="items squareImgs" src="images/civic.jpg" alt="Honda Civic Car"></a>
+            <a href="tesla.html"><img id="item3" class="items squareImgs" src="images/roadster.jpg" alt="Honda Civic Car"></a>
+            <a href="lambo.html"><img id="item4" class="items squareImgs" src="images/lambo.jpg" alt="Honda Civic Car"></a>
+            <a href="mustang.html"><img id="item5" class="items squareImgs" src="images/mustang.jpg" alt="Honda Civic Car"></a>
         <p id="item6" style="margin: 50px 150px; color: black;">
             Did you know that we carry a wide range of hobbies including slot cars, R/C, electric trains and even collectible figures. And when it comes to model kits, you won't find a better selection anywhere else. We also have a huge selection of military models from hundreds of brands. Whether you are a WWII buff, or more into modern warfare, you will definitely find something cool to build here
         </p>
-        <img id="item7" class="items circleImgs" src="images/Gallery.png">
-        <img id="item8" class="items circleImgs" src="images/Store.png">
+        <a href="gallery.html"><img id="item7" class="items circleImgs" src="images/Gallery.png"></a>
+        <img onclick="storePage()" style="cursor: pointer;" id="item8" class="items circleImgs" src="images/Store.png">
         <img id="item9" class="items circleImgs" src="images/Cart.png">
         <img id="item10" class="items circleImgs" src="images/Account.png">
     </div>
