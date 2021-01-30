@@ -16,7 +16,7 @@
         <li id="searchbar"><input type="text" placeholder="Search..."></li>
 
         <li><a href="#cart">Cart</a></li>
-        <li><a href="account.html" style="background-color: darkred;">Account</a></li>
+        <li><a  onclick="login()" style="background-color: darkred; cursor: pointer;">Account</a></li>
     </ul>
 
     <img src="images/racecar.png" id="racecar">
@@ -51,6 +51,17 @@
                 <input type="email" style="margin: 0px; height: 44.5px; width: 40%;">
             </form>
         </div>
+    </div>
+
+    <div id="accountContainer">
+        <form action="index.html">
+            <h1>Login</h1>
+            <input type="text" placeholder="Email"><br>
+            <input type="password" placeholder="Password"><br>
+            <button onclick="login()">Login</button><br>
+            <a href="index.html" style="color: blue;">Create Account</a>
+            <a href="index.html" style="color: blue;">Return to Store</a>
+        </form>
     </div>
 
     <script src="js/main.js"></script>

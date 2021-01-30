@@ -12,3 +12,12 @@ function storePage() {
         window.location.href = "tesla.html";
     }
 }
+
+function login() {
+    var x = document.getElementById("accountContainer");
+    if (x.style.visibility = "hidden") {
+        x.style.visibility = "visible";
+    } else {
+        x.style.visibility = "hidden";
+    }
+}
